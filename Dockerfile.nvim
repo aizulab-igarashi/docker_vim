@@ -1,0 +1,6 @@
+FROM alpine
+MAINTAINER Gen Igarashi < igarashi@aizulab.com >
+
+# Package
+RUN apk update
+RUN apk --update add neovim
